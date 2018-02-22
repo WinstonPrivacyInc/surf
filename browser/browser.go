@@ -218,6 +218,14 @@ type Browser struct {
 	timeout time.Duration
 }
 
+// RLS 2/22/2018
+func (bow *Browser) TransferEncoding() []string {
+	if bow.state.Request != nil {
+		return bow.state.Request.TransferEncoding
+	}
+	return nil
+}
+
 // buildClient instanciates the *http.Client used by the browser
 func (bow *Browser) buildClient() *http.Client {
 	return &http.Client{
