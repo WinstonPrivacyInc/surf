@@ -15,9 +15,9 @@ import (
 
 	"io/ioutil"
 
-	surferrors "github.com/headzoo/surf/errors"
-	"github.com/headzoo/surf/jar"
-	"github.com/headzoo/ut"
+	surferrors "github.com/winstonprivacyinc/surf/errors"
+	"github.com/winstonprivacyinc/surf/jar"
+	"github.com/winstonprivacyinc/ut"
 )
 
 func newBrowser() *Browser {

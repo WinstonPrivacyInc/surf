@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/headzoo/surf/agent"
-	"github.com/headzoo/surf/jar"
+	"github.com/winstonprivacyinc/surf/agent"
+	"github.com/winstonprivacyinc/surf/jar"
 )
 
 func newDefaultTestBrowser() *Browser {
